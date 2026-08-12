@@ -13,7 +13,7 @@ class NumArray:
             return (self.num[right])
         else:
             su=self.num[right]-self.num[left-1]
-            return su
+            return su             #return (self.num[r+1]-self.num[l])
 
 # Your NumArray object will be instantiated and called as such:
 # obj = NumArray(nums)
